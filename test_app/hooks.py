@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+from . import __version__ as app_version
 
 app_name = "test_app"
 app_title = "Test App"
@@ -8,7 +9,6 @@ app_description = "Test App"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "test@example.com"
-app_version = "0.0.1"
 app_license = "MIT"
 
 # Includes in <head>
